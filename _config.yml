@@ -80,7 +80,7 @@ theme: next
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: https://github.com/jaluik/jaluik.github.io
+  repo: git@github.com:jaluik/jaluik.github.io.git
   branch: master
 
 search: 
