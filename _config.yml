@@ -3,9 +3,9 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle:
-description:
+title: Jaluik
+subtitle: Consume deliberately. Take in information over affirmation.
+description: 个人博客。
 keywords:
 author: Jaluik
 language: zh-CN
@@ -72,6 +72,7 @@ pagination_dir: page
 
 # Extensions
 ## Plugins: https://hexo.io/plugins/
+plugins: hexo-generate-feed
 ## Themes: https://hexo.io/themes/
 theme: next
 
@@ -81,4 +82,10 @@ deploy:
   type: git
   repo: https://github.com/jaluik/jaluik.github.io
   branch: master
+
+search: 
+  path: search.xml
+  field: post
+  format: html
+  limit: 10000
   
